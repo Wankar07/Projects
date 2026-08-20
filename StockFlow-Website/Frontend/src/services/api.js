@@ -8,7 +8,7 @@ const isLocal =
 
 const defaultApiUrl = isLocal
   ? `${window.location.protocol}//${window.location.hostname}:8080/api`
-  : "https://stockflow-backend.onrender.com/api";
+  : "https://stockflow-backend-hcyv.onrender.com/api";
 
 export const API_BASE_URL = (
   import.meta.env.VITE_API_BASE_URL || defaultApiUrl
