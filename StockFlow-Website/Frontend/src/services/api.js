@@ -2,7 +2,14 @@ import axios from "axios";
 
 export const TOKEN_KEY = "sim_access_token";
 
-const defaultApiUrl = `${window.location.protocol}//${window.location.hostname}:8080/api`;
+const isLocal =
+  window.location.hostname === "localhost" ||
+  window.location.hostname === "127.0.0.1";
+
+const defaultApiUrl = isLocal
+  ? `${window.location.protocol}//${window.location.hostname}:8080/api`
+  : "https://stockflow-backend.onrender.com/api";
+
 export const API_BASE_URL = (
   import.meta.env.VITE_API_BASE_URL || defaultApiUrl
 ).replace(/\/$/, "");
