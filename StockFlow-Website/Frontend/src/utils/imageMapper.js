@@ -1,0 +1,278 @@
+/**
+ * Exact High-Res Original Product Image Mapping for StockFlow Catalog
+ * Maps each product name and SKU to accurate tech product imagery.
+ */
+
+const exactProductImageMap = [
+  // Exact User Product Mappings
+  {
+    sku: "LAP-001",
+    keywords: ["dell inspiron 15", "dell inspiron"],
+    url: "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=600&q=80",
+    label: "Dell Inspiron 15",
+  },
+  {
+    sku: "MOB-001",
+    keywords: ["samsung galaxy s25", "galaxy s25", "samsung galaxy"],
+    url: "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&w=600&q=80",
+    label: "Samsung Galaxy S25",
+  },
+  {
+    sku: "HDP-001",
+    keywords: ["hp laser printer", "laser printer"],
+    url: "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?auto=format&fit=crop&w=600&q=80",
+    label: "HP Laser Printer",
+  },
+  {
+    sku: "MOU-001",
+    keywords: ["logitech wireless mouse"],
+    url: "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=600&q=80",
+    label: "Logitech Wireless Mouse",
+  },
+  {
+    sku: "KEY-001",
+    keywords: ["mechanical keyboard"],
+    url: "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=600&q=80",
+    label: "Mechanical Keyboard",
+  },
+  {
+    sku: "SSD-001",
+    keywords: ["samsung 1tb ssd", "1tb ssd"],
+    url: "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?auto=format&fit=crop&w=600&q=80",
+    label: "Samsung 1TB SSD",
+  },
+  {
+    sku: "MON-001",
+    keywords: ["lg 27-inch monitor", "lg 27"],
+    url: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=600&q=80",
+    label: "LG 27-inch Monitor",
+  },
+  {
+    sku: "ROU-001",
+    keywords: ["tp-link ax3000 router", "ax3000"],
+    url: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=600&q=80",
+    label: "TP-Link AX3000 Router",
+  },
+  {
+    sku: "CAM-001",
+    keywords: ["logitech hd webcam"],
+    url: "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=600&q=80",
+    label: "Logitech HD Webcam",
+  },
+  {
+    sku: "EAR-001",
+    keywords: ["sony wireless earbuds", "sony earbuds"],
+    url: "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=600&q=80",
+    label: "Sony Wireless Earbuds",
+  },
+  {
+    sku: "MON-02",
+    keywords: ["lg 24-inch monitor", "lg 24"],
+    url: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=600&q=80",
+    label: "LG 24-inch Monitor",
+  },
+  {
+    sku: "LAP-02",
+    keywords: ["hp pavilion 15", "hp pavilion"],
+    url: "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=600&q=80",
+    label: "HP Pavilion 15",
+  },
+  {
+    sku: "MOU-02",
+    keywords: ["logitech mx master 3", "mx master 3"],
+    url: "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=600&q=80",
+    label: "Logitech MX Master 3",
+  },
+  {
+    sku: "KEY-02",
+    keywords: ["corsair mechanical keyboard"],
+    url: "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=600&q=80",
+    label: "Corsair Mechanical Keyboard",
+  },
+  {
+    sku: "SSD-02",
+    keywords: ["samsung 2tb ssd", "2tb ssd"],
+    url: "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?auto=format&fit=crop&w=600&q=80",
+    label: "Samsung 2TB SSD",
+  },
+  {
+    sku: "RAM-01",
+    keywords: ["corsair 16gb ddr4 ram", "ddr4 ram"],
+    url: "https://images.unsplash.com/photo-1562976540-1502c2145186?auto=format&fit=crop&w=600&q=80",
+    label: "Corsair 16GB DDR4 RAM",
+  },
+  {
+    sku: "CPU-01",
+    keywords: ["intel core i5 12400", "i5 12400"],
+    url: "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?auto=format&fit=crop&w=600&q=80",
+    label: "Intel Core i5 12400",
+  },
+  {
+    sku: "HDD-01",
+    keywords: ["wd 2tb hdd", "2tb hdd"],
+    url: "https://images.unsplash.com/photo-1531492746076-161ca9bcad58?auto=format&fit=crop&w=600&q=80",
+    label: "WD 2TB HDD",
+  },
+  {
+    sku: "CAB-01",
+    keywords: ["usb-c hub 7-in-1", "usb-c hub"],
+    url: "https://images.unsplash.com/photo-1616440347437-b1c73416efc2?auto=format&fit=crop&w=600&q=80",
+    label: "USB-C Hub 7-in-1",
+  },
+  {
+    sku: "NET-02",
+    keywords: ["tp-link archer c6 router", "archer c6"],
+    url: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=600&q=80",
+    label: "TP-Link Archer C6 Router",
+  },
+  {
+    sku: "LAP-03",
+    keywords: ["lenovo ideapad slim 5", "ideapad slim"],
+    url: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=600&q=80",
+    label: "Lenovo IdeaPad Slim 5",
+  },
+  {
+    sku: "LAP-04",
+    keywords: ["asus vivobook 15", "vivobook 15"],
+    url: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=600&q=80",
+    label: "ASUS VivoBook 15",
+  },
+  {
+    sku: "MON-03",
+    keywords: ["samsung 27-inch curved monitor", "curved monitor"],
+    url: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=600&q=80",
+    label: "Samsung 27-inch Curved Monitor",
+  },
+  {
+    sku: "KEY-03",
+    keywords: ["redragon k552 mechanical keyboard"],
+    url: "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=600&q=80",
+    label: "Redragon K552 Mechanical Keyboard",
+  },
+  {
+    sku: "MOU-03",
+    keywords: ["hp wireless mouse"],
+    url: "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=600&q=80",
+    label: "HP Wireless Mouse",
+  },
+  {
+    sku: "EAR-02",
+    keywords: ["boat airdopes 141", "airdopes"],
+    url: "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?auto=format&fit=crop&w=600&q=80",
+    label: "boAt Airdopes 141",
+  },
+  {
+    sku: "SSD-03",
+    keywords: ["crucial 1tb nvme ssd", "crucial ssd"],
+    url: "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?auto=format&fit=crop&w=600&q=80",
+    label: "Crucial 1TB NVMe SSD",
+  },
+  {
+    sku: "PEN-01",
+    keywords: ["hp laserjet pro printer"],
+    url: "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?auto=format&fit=crop&w=600&q=80",
+    label: "HP LaserJet Pro Printer",
+  },
+  {
+    sku: "CAM-02",
+    keywords: ["canon eos 200d camera", "canon camera"],
+    url: "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=600&q=80",
+    label: "Canon EOS 200D Camera",
+  },
+  {
+    sku: "NET-03",
+    keywords: ["d-link 8-port gigabit switch", "gigabit switch"],
+    url: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=600&q=80",
+    label: "D-Link 8-Port Gigabit Switch",
+  },
+
+  // Category & Broad Keyword Fallbacks for New Products
+  {
+    keywords: ["laptop", "macbook", "notebook"],
+    url: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=600&q=80",
+  },
+  {
+    keywords: ["phone", "mobile", "iphone", "smartphone"],
+    url: "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&w=600&q=80",
+  },
+  {
+    keywords: ["mouse"],
+    url: "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=600&q=80",
+  },
+  {
+    keywords: ["keyboard"],
+    url: "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=600&q=80",
+  },
+  {
+    keywords: ["monitor", "display", "screen"],
+    url: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=600&q=80",
+  },
+  {
+    keywords: ["printer"],
+    url: "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?auto=format&fit=crop&w=600&q=80",
+  },
+  {
+    keywords: ["earbuds", "headphone", "earphone", "airpods", "headset"],
+    url: "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=600&q=80",
+  },
+  {
+    keywords: ["camera", "webcam"],
+    url: "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=600&q=80",
+  },
+  {
+    keywords: ["ssd", "nvme", "drive"],
+    url: "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?auto=format&fit=crop&w=600&q=80",
+  },
+  {
+    keywords: ["hdd", "hard disk"],
+    url: "https://images.unsplash.com/photo-1531492746076-161ca9bcad58?auto=format&fit=crop&w=600&q=80",
+  },
+  {
+    keywords: ["router", "wifi"],
+    url: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=600&q=80",
+  },
+  {
+    keywords: ["hub", "adapter", "cable"],
+    url: "https://images.unsplash.com/photo-1616440347437-b1c73416efc2?auto=format&fit=crop&w=600&q=80",
+  },
+  {
+    keywords: ["watch", "smartwatch"],
+    url: "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&w=600&q=80",
+  },
+];
+
+const fallbackImage = "https://images.unsplash.com/photo-1526738549149-8e07eca6c147?auto=format&fit=crop&w=600&q=80";
+
+/**
+ * Returns mapped high-resolution product image URL based on custom URL, SKU code, or keywords in product name/category
+ */
+export function getProductImage(product) {
+  if (!product) return fallbackImage;
+
+  // 1. Custom image URL pasted by user in form
+  const customUrl = product.imageUrl || product.image || product.imgUrl || product.photo || product.img;
+  if (customUrl && typeof customUrl === "string" && customUrl.trim().length > 5) {
+    return customUrl.trim();
+  }
+
+  const pSku = String(product.sku || "").trim().toUpperCase();
+  const pName = String(product.name || "").toLowerCase();
+  const pCat = String(product.category || "").toLowerCase();
+  const searchText = `${pName} ${pCat}`;
+
+  // 2. Match by exact SKU code
+  if (pSku) {
+    const skuMatch = exactProductImageMap.find((item) => item.sku && item.sku.toUpperCase() === pSku);
+    if (skuMatch) return skuMatch.url;
+  }
+
+  // 3. Match by Product Name or Category keywords
+  for (const item of exactProductImageMap) {
+    if (item.keywords && item.keywords.some((kw) => searchText.includes(kw))) {
+      return item.url;
+    }
+  }
+
+  // 4. Default high-res tech inventory image fallback
+  return fallbackImage;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "smart-inventory-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 5502",
+    "build": "vite build",
+    "preview": "vite preview --port 5502"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@vitejs/plugin-react": "latest",
+    "axios": "latest",
+    "lucide-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router-dom": "latest",
+    "recharts": "^3.10.1",
+    "tailwindcss": "^4.3.3",
+    "vite": "latest"
+  }
+}
