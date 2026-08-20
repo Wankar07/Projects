@@ -52,6 +52,8 @@ public class SecurityConfig {
         configuration.setAllowedOriginPatterns(List.of(
                 "http://127.0.0.1:*",
                 "http://localhost:*",
+                "https://*.vercel.app",
+                "https://*",
                 // LAN origins are needed when StockFlow is opened from a phone
                 // or another device on the same Wi-Fi network.
                 "http://192.168.*:*",
